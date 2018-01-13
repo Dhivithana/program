@@ -17,9 +17,9 @@ int main()
    }
  
    if ( n == reverse )
-      printf("%d is a palindrome number.\n", n);
+      printf("%d yes", n);
    else
-      printf("%d is not a palindrome number.\n", n);
+      printf("%d no", n);
  
    return 0;
 }
