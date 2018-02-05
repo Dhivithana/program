@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a,temp,b;
+int a,b;
 printf("\n enter two numbers:");
 scanf("%d%d",&a,&b);
 printf("\n Numbers before swap(%d,%d):",a,b);
