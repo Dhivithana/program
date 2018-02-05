@@ -4,9 +4,10 @@ int main()
 int a,temp,b;
 printf("\n enter two numbers:");
 scanf("%d%d",&a,&b);
-temp=a;
-a=b;
-b=temp;
+printf("\n Numbers before swap(%d,%d):",a,b);
+a=a^b;
+b=a^b;
+a=a^b;
 printf("\n The swapped result is:(%d,%d)",a,b);
 return 0;
 }
