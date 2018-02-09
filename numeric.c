@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-char a[10];
+char a[100];
 gets(a);
 int i,c=0;
 printf("\n enter your string:");
