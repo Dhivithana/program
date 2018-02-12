@@ -18,11 +18,11 @@ int main(void)
 	}
 	if(f==0)
 	{
-		printf("\n %d is a power of 2",num);
+		printf("\n Yes);
 	}
 	else if(f==1)
 	{
-		printf("\n %d is not a power of 2",num);
+		printf("\n No);
 	}
 	return 0;
 }
